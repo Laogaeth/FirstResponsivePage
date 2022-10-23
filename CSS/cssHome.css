@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+
+}
+
+@font-face {
+    font-family: HXC ;
+    src: url(../Font/punk.ttf);
+}
+
+h1{
+    font-family: HXC;
+    color:white;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.Intro{
+    color: white;
+    margin: 20px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+
+#Albums{
+    background-color: #f8f8ff;
+    height: auto;
+    padding: 50px;
+}
+.img-fluid{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 5px 5px black;
+}
+
+
+.carousel-inner{
+    padding: 50px;
+    height:auto;
+   
+}
+#TOURS{
+
+    margin: auto;
+}
+.TourTitle{
+    font-family: HxC;
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.FlintTitle{
+
+    color: black;
+}
+.FlintText{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+#RowFlint{
+    background-color: #f8f8ff;
+}
+iframe{
+    padding: 10px 10px 10px 10px;
+    
+}
+#Footer{
+    height: 300px;
+    margin-top: 70px;
+    text-align: center;
+
+
+}
+li{
+    display: inline;
+    
+}
+
+ul a {
+    color: white;
+    list-style: none;
+    margin: 5px;
+
+}
+
+.footerLine{
+    border: solid white 1px;
+    margin-top: 10px;
+    text-align: center;
+}
+.socialstitle{
+    color: white;
+}
+.rights{
+    color: white;
+    padding: 10px 10px;
+    text-align: center; 
+}
+.socials a :hover{
+    color: grey;
+}

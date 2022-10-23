@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+p, h2, label{
+    color: white;
+}
+.container{
+    padding: 50px;
+
+}
+.row{
+    justify-content: center
+}
+.btn{
+    background-color: black;
+    border: solid 1px white;
+}
+.btn:hover{
+    background-color: green;
+}
+#Footer{
+    height: 300px;
+    margin-top: 70px;
+    text-align: center;
+
+
+}
+li{
+    display: inline;
+    
+}
+
+ul a {
+    color: white;
+    list-style: none;
+    margin: 5px;
+
+}
+
+.footerLine{
+    border: solid white 1px;
+    margin: auto;
+}
+.socialstitle{
+    color: white;
+}
+.rights{
+    color: white;
+    padding: 10px 10px;
+    text-align: center; 
+}
+.socials a :hover{
+    color: grey;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.background-image{
+    
+    background-image: url(../Images/king810crew.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+    background-position: center center;
+   filter: blur(5px);
+}
+.navMenu{
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);;
+    transform: translate(-50%, -50%);
+    word-spacing: 20px;
+}
+
+.navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    
+}
+
+.navMenu a:hover {
+    color: #ABB2B9;
+}
+
